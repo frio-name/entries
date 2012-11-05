@@ -1,0 +1,2 @@
+refresh:
+	git pull
