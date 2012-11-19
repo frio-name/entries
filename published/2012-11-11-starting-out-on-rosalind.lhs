@@ -1,6 +1,6 @@
 ## Starting Out on Rosalind
 
-[Rosalind][1] is a new project which is trying to teach bio-informatics.  It aims to do so by requiring that the student solve simple problems in the style of Project Euler, or the Google Code Jams.  Being a horrific slacker, I'll probably not keep up.
+Earler this week, I came across [Rosalind][1], which aims to help students learn about both programming and bio-informatics   In the vein of the Google Code Jam or Project Euler, students simply solve problems -- which contain a little information on why they need to be solved -- in order to learn.  Being a horrific slacker, I'll probably not manage to keep up.
 
 Still, the first given problem is simple enough that it shouldn't take long, so let's have a crack.
 
