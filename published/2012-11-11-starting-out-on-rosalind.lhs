@@ -64,7 +64,6 @@ If you fire this document up in GHCI, and inspect correct, you should see `True`
 Now, we're going to make this a Real Program(tm), by hooking up our main method.  It'll take our list of characters as input, and will print out the counts given above.
 
 > main :: IO ()
-> main = do
->   putStrLn "What are the characters?"
->   chars <- getLine
->   putStrLn $ formatOutput $ count chars
+> main = interact (formatOutput . countNucleotides)
+
+If you download and compile this .lhs file, you should be able to run it with something along the lines of ``cat rosalind_dna.txt | runhaskell filename.lhs`` to check the real output.
